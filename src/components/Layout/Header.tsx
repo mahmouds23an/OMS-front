@@ -1,4 +1,3 @@
-
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
@@ -101,9 +100,9 @@ const Header: React.FC<HeaderProps> = ({ onMenuToggle, mobileMenuOpen }) => {
 
             {/* Logo */}
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+              <div className="w-9 h-9 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
                 <Link to="/">
-                  <span className="text-white font-bold text-sm">OS</span>
+                  <span className="text-white font-bold text-sm">OMS</span>
                 </Link>
               </div>
             </div>
